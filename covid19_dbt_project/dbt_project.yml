@@ -34,4 +34,6 @@ models:
   covid19_dbt_project:
     materialized: 'table'
 
-
+seeds:
+  covid19_dbt_project:
+    target: 'prod'
